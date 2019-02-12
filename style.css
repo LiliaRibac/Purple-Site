@@ -1,0 +1,156 @@
+:root{
+    --primary-color:#E74E4C;
+    --secondary-color:white;
+    --primary-text-color:#e9e9e9;
+}
+
+html, body{
+    margin:0px;
+    padding:0px;
+}
+
+.navbar{
+    width:71vw;
+    padding:25px 200px;
+}
+
+.container{
+    font-family:'Roboto', sans-serif;
+    text-align:center;
+}
+
+.logo{
+    height:70px;
+}
+
+.header-container h1, h2, h3{
+    font-weight:bold;
+    padding-bottom:20px;
+}
+
+.header-container p{
+    font-weight:lighter;
+    padding-bottom:30px;
+}
+
+.dark-text h1, h2, h3, p{
+    color:black;
+}
+
+.profile-img{
+    height: 150px;
+    width:150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0px auto;
+    margin-bottom:20px;
+}
+.work-place{
+    width: 50vw;
+
+}
+
+.primary-section{
+    background-color:var(--primary-color);
+    color: var(--primary-text-color);
+    padding: 100px 0px;
+    max-height: 300px;
+}
+
+.primary-section p{
+    max-width:60vw;
+    margin:0px auto;
+}
+
+.boxs-container{
+    width:60vw;
+    margin:0px auto;
+    border:solid 2px var(--primary-text-color);
+    border-radius:15px;
+    column-count:3;
+    background-color:var(--secondary-color);
+}
+
+.box{
+    padding:50px;
+    text-align:center;
+    border-right:solid 2px black;
+    margin-right:-20px;
+}
+
+.box h2 {
+    color:black;
+    font-weight:bold;
+    padding-bottom:20px;
+}
+
+.box h3 {
+    color:var(--primary-color);
+    font-weight:normal;
+    padding-bottom:0px;
+}
+
+.box p {
+    color:#333;
+    font-weight:lighter;
+    padding-bottom:20px;
+}
+
+.box:nth-child(3){
+    border:none;
+}
+
+
+.button-container{
+    padding-top:50px;
+}
+
+.button1{
+    background-color: transparent;
+    color:var(--primary-color);
+    padding:10px 50px;
+    border:solid 2px var(--primary-color);
+    transition:all 0.3s;
+    border-radius:50px;
+    text-decoration: none;
+    float:right;
+}
+
+.button1:hover{
+    background-color:var(--primary-color);
+    color:var(--secondary-color);
+    border:solid 2px var(--primary-color);
+}
+
+
+.button2{
+    margin-top:30px;
+    background-color: transparent;
+    color:var(--primary-color);
+    padding:10px 50px;
+    border:solid 2px var(--primary-color);
+    transition:all 0.3s;
+    border-radius:50px;
+    text-decoration: none;
+}
+
+.button2:hover{
+    background-color:var(--primary-color);
+    color:var(--secondary-color);
+    border:solid 2px var(--primary-color);
+}
+
+.pad-top{
+    padding-top:400px;
+}
+
+.recent-work-container{
+    width:62vw;
+    margin:0px auto;
+}
+
+
+.experiences-container .row img{
+    border-radius:8px;
+    padding:0px 5px 5px 5px
+}
